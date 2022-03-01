@@ -21,3 +21,5 @@ for (let i = 0 ; i < images.length ; i++){
 
 const carouselWrapper = document.querySelector('div#thumbnails');
 carouselWrapper.innerHTML += carouselContent;
+
+const carouselElements = document.getElementsByClassName('item');
