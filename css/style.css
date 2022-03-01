@@ -1,0 +1,43 @@
+.row{
+    border: 2px solid black;
+    position: relative;
+}
+
+#carousel{
+    border: 1px solid black;
+}
+
+#carousel img{
+    width: 100%;
+}
+
+#thumbnails{
+    border: 1px solid black;
+}
+
+#thumbnails .item{
+    border: 1px solid black;
+    height: calc(100% / 5);
+}
+
+#thumbnails .item img{
+    height: 100%;
+    width: 100%;
+    height: calc(100% / 5);
+
+}
+
+.fas{
+    position: absolute;
+    font-size: 25px;
+}
+
+.fa-chevron-circle-up{
+    left: 90%;
+    top: 5%;
+}
+
+.fa-chevron-circle-down{
+    left: 90%;
+    bottom: 5%;
+}
