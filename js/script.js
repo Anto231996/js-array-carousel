@@ -47,9 +47,7 @@ let activeElement = 1;
 
 document.getElementsByClassName("item")[activeElement].classList.add("active");
 
-document
-  .getElementsByClassName("thumbnail")
-  [activeElement].classList.add("active");
+document.getElementsByClassName("thumbnail")[activeElement].classList.add("active");
 
 const prev = document.querySelector("div.prev");
 
